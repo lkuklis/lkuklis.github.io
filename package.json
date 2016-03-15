@@ -1,0 +1,27 @@
+{
+  "name": "lkuklis.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-inject": "^3.0.0",
+    "wiredep": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkuklis/lkuklis.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lkuklis/lkuklis.github.io/issues"
+  },
+  "homepage": "https://github.com/lkuklis/lkuklis.github.io#readme"
+}

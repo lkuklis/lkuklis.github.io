@@ -1,0 +1,17 @@
+{
+  "name": "lkuklis.github.io",
+  "version": "0.0.0",
+  "homepage": "http://public.kuklis.net",
+  "authors": [
+    "Lukasz Kuklis <lkuklis@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
