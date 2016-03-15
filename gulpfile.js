@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
 var inject = require('gulp-inject');
+var wiredep = require('wiredep').stream;
 
 gulp.task('deploy', function() {
     return gulp.src('./dist/**/*')
@@ -22,3 +23,8 @@ gulp.task('index', function () {
         .pipe(gulp.dest('./'));
 });
 
+gulp.task('bower', function () {
+    gulp.src('./index.html')
+        .pipe(wiredep())
+        .pipe(gulp.dest('.'));
+});
