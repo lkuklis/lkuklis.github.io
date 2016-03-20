@@ -6,6 +6,20 @@
 })();
 (function(){
     "use strict";
+
+    var HomeCtrl = function () {
+
+
+    };
+
+    angular.module('main')
+        .controller('headerCtrl', [ HomeCtrl])
+
+
+})();
+
+(function(){
+    "use strict";
     angular.module('main')
         .controller('publicCtrl',  function(){
 
